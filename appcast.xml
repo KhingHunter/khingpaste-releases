@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>KhingPaste</title>
+        <link>https://raw.githubusercontent.com/KhingHunter/khingpaste-releases/main/appcast.xml</link>
+        <description>Update feed for KhingPaste, the macOS clipboard history app.</description>
+        <language>en</language>
+        <item>
+            <title>1.1</title>
+            <pubDate>Thu, 30 Jul 2026 22:20:22 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingpaste-releases/releases/tag/v1.1</link>
+            <description><![CDATA[
+<p>KhingPaste can now update itself.</p>
+<h3>New</h3>
+<ul>
+<li><strong>Updates arrive in the app.</strong> KhingPaste checks once a day in the background</li>
+</ul>
+<p>and offers the new version when there is one. <strong>Check for Updates…</strong> is in the menu bar, and <strong>Settings → Updates</strong> shows the running version, when it last checked, and a switch for the daily check.</p>
+<ul>
+<li>A scheduled check never interrupts a history panel you have open. One you ask</li>
+</ul>
+<p>for always runs.</p>
+<h3>Changed</h3>
+<ul>
+<li>KhingPaste now ships as a signed, notarised <strong>disk image</strong> rather than a zip.</li>
+</ul>
+<p>Drag it to Applications the usual way.</p>
+<ul>
+<li>Universal build: Apple silicon and Intel in one download.</li>
+</ul>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingpaste-releases/releases/download/v1.1/KhingPaste-1.1.dmg"
+                       sparkle:edSignature="gyM1mDTVMjTaPGq5BZW3fJnEgWRhvPDl/14NZZlHrFNuw2HmSsjjVTYH3/AsFgumWsiin1mk+hVsGe0X5EBZBA=="
+                       length="5989542"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
