@@ -6,6 +6,31 @@
         <description>Update feed for KhingPaste, the macOS clipboard history app.</description>
         <language>en</language>
         <item>
+            <title>1.3</title>
+            <pubDate>Thu, 30 Jul 2026 22:53:20 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingpaste-releases/releases/tag/v1.3</link>
+            <description><![CDATA[
+<p>Return now tells you when it can only copy.</p>
+<h3>Fixed</h3>
+<ul>
+<li><strong>Pressing Return did nothing visible in some cases.</strong> With *Paste</li>
+</ul>
+<p>automatically* switched on but Accessibility access missing, KhingPaste put the item on the clipboard and stopped there, with nothing on screen to say why. The panel now says so, and offers a <strong>Grant Access</strong> button that takes you straight to the right place in System Settings.</p>
+<ul>
+<li>Access is re-checked every time the panel opens, so granting it takes effect</li>
+</ul>
+<p>on your next paste rather than after a restart.</p>
+<p>macOS drops Accessibility access whenever an app is replaced by a build signed differently, which is easy to hit and gives no warning. If Return has been copying rather than pasting, this release will tell you, and one click fixes it.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingpaste-releases/releases/download/v1.3/KhingPaste-1.3.dmg"
+                       sparkle:edSignature="fuR5FI2fLEI0ni9+id+vX310SgzWw/uIQjLQ8+PzE5V6+6pMf1e7CjG5VzxmwRLUFMUqpgkcgirUewv7ghB0DQ=="
+                       length="5997444"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Thu, 30 Jul 2026 22:24:21 +0000</pubDate>
             <sparkle:version>3</sparkle:version>
