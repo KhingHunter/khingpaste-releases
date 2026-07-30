@@ -6,6 +6,26 @@
         <description>Update feed for KhingPaste, the macOS clipboard history app.</description>
         <language>en</language>
         <item>
+            <title>1.2</title>
+            <pubDate>Thu, 30 Jul 2026 22:24:21 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingpaste-releases/releases/tag/v1.2</link>
+            <description><![CDATA[
+<p>The first release that arrives through the updater rather than as a download.</p>
+<h3>New</h3>
+<ul>
+<li>The menu bar dropdown now shows which version you are on. KhingPaste has no</li>
+</ul>
+<p>Dock icon and no About window, so until now the only way to find out was to open Settings and scroll to the bottom.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingpaste-releases/releases/download/v1.2/KhingPaste-1.2.dmg"
+                       sparkle:edSignature="XvJFVZNxzEWGxIznwyy1xypR/qYpKa3eiZ5MqpV5BMr7o6vXLuA2yeTD+y8NAxg8sD+0cM0RTviBVG4G7CfeAg=="
+                       length="5989882"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Thu, 30 Jul 2026 22:20:22 +0000</pubDate>
             <sparkle:version>2</sparkle:version>
