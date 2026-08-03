@@ -6,6 +6,32 @@
         <description>Update feed for KhingPaste, the macOS clipboard history app.</description>
         <language>en</language>
         <item>
+            <title>1.4</title>
+            <pubDate>Mon, 03 Aug 2026 20:00:10 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingpaste-releases/releases/tag/v1.4</link>
+            <description><![CDATA[
+<p>Press Space to see the image you are about to paste.</p>
+<h3>New</h3>
+<ul>
+<li><strong>Preview an image on Space, the way Finder does.</strong> Select an image in the</li>
+</ul>
+<p>history and press Space to open it full size across the panel. Tap the key and the preview stays up; hold it and the preview goes away when you let go. Both gestures work exactly as they do in Finder.</p>
+<ul>
+<li>While a preview is open the arrow keys step between your images and swap the</li>
+</ul>
+<p>picture in place, so you can flick through a run of screenshots without closing anything. Return still pastes the one you are looking at, and Escape or Space closes the preview.</p>
+<p>A row showed an image as a 34-pixel thumbnail titled *Image 1920 x 1080*, which tells two screenshots taken a minute apart apart not at all. Now you can look before you paste.</p>
+<p>The preview is drawn inside KhingPaste's own panel rather than handed to Quick Look, because Quick Look takes keyboard focus and KhingPaste's whole trick is never taking it from the app you were typing in.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingpaste-releases/releases/download/v1.4/KhingPaste-1.4.dmg"
+                       sparkle:edSignature="Jd8tISPn4HcMzYr6F74YAdeSLcfmqDaQLpEAQ3Zq10rf5WJCQYIX1s/brnADpWO6ablCFmlbxezknhs6/C+YAA=="
+                       length="6061559"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.3</title>
             <pubDate>Thu, 30 Jul 2026 22:53:20 +0000</pubDate>
             <sparkle:version>4</sparkle:version>
