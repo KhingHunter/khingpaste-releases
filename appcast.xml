@@ -6,6 +6,36 @@
         <description>Update feed for KhingPaste, the macOS clipboard history app.</description>
         <language>en</language>
         <item>
+            <title>1.5</title>
+            <pubDate>Wed, 05 Aug 2026 17:32:40 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingpaste-releases/releases/tag/v1.5</link>
+            <description><![CDATA[
+<p>Right-click any row, and updates now look like the rest of KhingSuite.</p>
+<h3>New</h3>
+<ul>
+<li><strong>A context menu on every row.</strong> Right-click to paste, pin, preview, or delete</li>
+</ul>
+<p>without reaching for a shortcut. Pinning and deleting used to be reachable only by keyboard, so a hand already on the mouse had no way to them at all.</p>
+<ul>
+<li><strong>Open and Reveal in Finder on a copied file.</strong> Copy a file, then send it</li>
+</ul>
+<p>straight to Finder or open it, without pasting it anywhere first.</p>
+<ul>
+<li><strong>The update panel wears KhingSuite's own colours</strong>, the same one KhingShot</li>
+</ul>
+<p>shows, rather than Sparkle's stock window.</p>
+<p>The menu acts on the row you clicked rather than the selected one, so it never moves your place in the list.</p>
+<p>A copied file is a path rather than a copy of the file itself, so it can be renamed, moved, or thrown away long before the row ages out of the history. KhingPaste checks before it acts, and says so in the panel instead of appearing to do nothing. If you copied several files and only some are still there, it opens the ones that are.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingpaste-releases/releases/download/v1.5/KhingPaste-1.5.dmg"
+                       sparkle:edSignature="d72gFtudA7rMeyMy8142iq5zjebyb8WcgoiQvheKlANQHI7M3CU9IoGqSVFHpO0oytC5DUteVli3Uc5+ysX2Dw=="
+                       length="6169646"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.4</title>
             <pubDate>Mon, 03 Aug 2026 20:00:10 +0000</pubDate>
             <sparkle:version>5</sparkle:version>
