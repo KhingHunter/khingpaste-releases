@@ -6,6 +6,57 @@
         <description>Update feed for KhingPaste, the macOS clipboard history app.</description>
         <language>en</language>
         <item>
+            <title>1.6</title>
+            <pubDate>Mon, 12 Oct 2026 16:21:18 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingpaste-releases/releases/tag/v1.6</link>
+            <description><![CDATA[
+<p>A new look: KhingPaste now wears the same glass as KhingShot and Quorum.</p>
+<h3>In the history</h3>
+<ul>
+<li><strong>See the whole copy before you paste it.</strong> A preview beside the list shows</li>
+</ul>
+<p>the full text, the link, the command, the color, the picture, or the file and where it came from, with its length, formats, and when you first copied it.</p>
+<ul>
+<li><strong>Rows show what you copied.</strong> Colors show their swatch, images their</li>
+</ul>
+<p>thumbnail, commands read in monospace, and links lead with the site.</p>
+<ul>
+<li><strong>History and Pinned are tabs.</strong> Your pinned copies get their own page, kept</li>
+</ul>
+<p>past the size limit as before.</p>
+<ul>
+<li><strong>Filter by kind from the search field.</strong> Text, links, images, files,</li>
+</ul>
+<p>commands, or colors, with a count for each. Matches are highlighted as you type.</p>
+<ul>
+<li><strong>Clear History shows what goes and what stays</strong> before you confirm, and</li>
+</ul>
+<p>keeps your pinned copies unless you choose to take everything.</p>
+<h3>Everywhere else</h3>
+<ul>
+<li><strong>A menu bar panel</strong> with your five newest copies, a switch to pause</li>
+</ul>
+<p>recording, and the shortcut that opens the history.</p>
+<ul>
+<li><strong>Settings in pages:</strong> General, Shortcut, Permissions, History, and Updates.</li>
+</ul>
+<p>Permissions says exactly what is missing and takes you to the right switch.</p>
+<ul>
+<li><strong>A short setup guide</strong> on first launch. If you are updating, you will not</li>
+</ul>
+<p>see it.</p>
+<p>Escape now closes the kind menu first, then clears your search, then closes the panel.</p>
+<p>KhingPaste never checks a copied file on its own inside Desktop, Documents, or Downloads, so opening the history can never set off a macOS folder-access prompt over the app you are typing in. It checks when you open, reveal, or paste the file, as before.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingpaste-releases/releases/download/v1.6/KhingPaste-1.6.dmg"
+                       sparkle:edSignature="v+BDqxkjW0uXMuuBAxor6Et2nI5M+enjVbD3jO3XvzfChdzt2000G/j05AjxiZ+jAfjbqH8NVxG8RykWFeqYAg=="
+                       length="7798991"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.5</title>
             <pubDate>Wed, 05 Aug 2026 17:32:40 +0000</pubDate>
             <sparkle:version>6</sparkle:version>
